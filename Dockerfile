@@ -3,7 +3,8 @@ FROM python:3.9-buster
 RUN  pip install black \
     jupyterlab \
     matplotlib \
-    pyarrow
+    pyarrow \
+    tqdm
 
 
 # from https://code.visualstudio.com/docs/remote/containers-advanced#_adding-a-nonroot-user-to-your-dev-container
